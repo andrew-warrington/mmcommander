@@ -21,7 +21,7 @@
 // and any message will be transmitted. This filter will prevent a possible 
 // hacker from sending commands to your pump in case your smartphone or 
 // computer gets hacked. USE THIS MODE WITH CAUTION.
-#define _TX_FILTER_ENABLE_ 1
+#define _TX_FILTER_ENABLE_ 0
 
 // The parameter _SUPPORT_SUSPEND_WHEN_FILTERED_ must be set to 1
 // if you want the interface to allow SUSPEND commands in filtered mode.
@@ -32,7 +32,7 @@
 // want the MMCommander to send a 0x04 command each time the received 
 // message is exactly the same as the previous one. If 0 you'll receive
 // the whole message every time.
-#define _REPEATED_COMMAND_ENABLED_ 1
+#define _REPEATED_COMMAND_ENABLED_ 0
 
 // The version number is defined here for identification purposes.
 #define _MMCOMMANDER_VERSION_ 89
